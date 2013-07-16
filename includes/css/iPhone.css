@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #FFFFFF;
+    color: #000000;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+	background-image: url(pinstripes.png);
+}
+
+
+	
+body > .panel {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    background: #bdbdbd url(pinstripes.png);
+}
+
+.panel > fieldset {
+    position: relative;
+    margin: 8px 0 20px 0;
+
+    background: #FFFFFF;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #999999;
+    text-align: left;
+    font-size: 16px;
+	padding:10px;
+}
+
+a {
+	color: #333333;
+	text-decoration: underline;
+	}
+
+a:hover {
+	color: #EB9700;
+	text-decoration: none;
+	}
+
+table {
+	border-collapse: collapse;
+
+	font-size: 14px;
+	}
+
+th {
+	padding: 0.5em;
+	text-align: left;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background-color: #dddddd;
+	/*background: url(../../images/bgs/gray-gradient.jpg) repeat-x;*/
+	}
+	
+th scope {
+	padding: 0.5em;
+	text-align: left;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: none;
+	}
+
+td {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 0.5em;
+	}
+	
+.altrow {
+	background-color: #e8e8e8;
+	}
+
+.altrowBelow {
+	background-color: #F2CFCF;
+	}	
+	
+.altrowBelow1 {
+	background-color: #E99999;
+	}	
+
+.hidden {
+	display: none;
+}
+
+.header {
+	height: 75px;
+	background-image: url(toolbar.png);
+}
+
+.logo {
+	height: 75px;
+	width: 159px;
+	background-image: url(logo.png);
+	float: right;
+}
+
+
+h2 {
+    margin: 0 0 8px 0;
+	padding-left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-shadow: rgba(255, 255, 255, 0.75) 2px 2px 0;
+	border-left-style:solid;
+	border-left-width:5px;
+	border-color: #eb9700;
+}
+
+.whiteButton,
+.redButton,
+.orangeButton,
+.greenButton,
+.grayButton {
+    display: block;
+    border-width: 0 12px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: inherit;
+    color: #333333;
+	width:100%;
+}
+
+.whiteButton {
+    -webkit-border-image: url(whiteButton.png) 0 12 0 12;
+    text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+}
+
+.orangeButton {
+    -webkit-border-image: url(orangeButton.png) 0 12 0 12;
+    text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+}
+
+.greenButton {
+    -webkit-border-image: url(greenButton.png) 0 12 0 12;
+    text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+}
+
